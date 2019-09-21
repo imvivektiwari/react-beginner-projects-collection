@@ -1,0 +1,102 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn-row{
+  display: flex;
+}
+.btn{
+  flex:1;
+}
+
+#main-container{
+  display:flex;
+  
+}
+#main-container .apps{
+  flex: 1;
+  border:1px solid #000;
+  background-color: gray;
+  padding: 20px;
+}
+
+#calc-body{
+  /* border:1px solid #000; */
+  width:288px;
+  height:462px;
+  position: relative;
+  left:15%;
+  /* top:0;bottom:0;
+  margin:auto; */
+}
+#calc-body .row{
+  display: flex;
+}
+#calc-body .btn{
+  flex:1;
+}
+
+#calc-body input{
+  height:95px;
+  color:#fff;
+  background:#D40640;
+  width:100%;
+  border:none;
+  font-size:35px;
+  text-align: right;
+}
+
+#calc-body button{
+ height:73px;
+ width:72px;
+ border:none;
+ margin:0px;
+ background:#fff;
+ font-size: 18px;
+}
+
+#calc-body .opt{
+  color:#D40640;
+}
+
+#calc-body #clear{
+  flex:2;
+}
+#calc-body #clear button{
+  width:100%;
+  color:#D40640;
+}
+
+
+#temp-body{
+  /* position: relative;
+  left:100px;
+  border:1px solid red; */
+}
+
+#temp-body input, #weather-container input{
+  display: block;
+  width:300px;
+  height:30px;
+  margin-bottom: 20px;
+  outline: none;
+  background: #808080; 
+  border:none;
+  border-bottom:1px solid #fff; 
+  padding:5px;
+}
+#temp-body span, #weather-container span{
+  color:#fff;
+  font-size: 20px
+}
+
+#weather-container table{
+  position: relative;
+  top:30px;
+  background: #fff;
+  text-align: left;
+}
+#weather-container table tr td, #weather-container table tr th{
+  border:1px solid #000;
+}
